@@ -1,59 +1,78 @@
----
 
-### `CODSOFT-task2`  
-**`README.md`**
-```markdown
-# CODSOFT Task 2 - Data Analysis Project
+# Job Portal Website
 
-This repository contains a data analysis project completed as part of the CODSOFT internship task. The focus of this task is to perform exploratory data analysis (EDA) on a given dataset to extract meaningful insights, visualize patterns, and prepare the data for potential modeling.
+This project is a responsive and user-friendly Job Portal Website developed as part of **Task 2, Level 2** of the **CODSOFT Virtual Internship**. The platform facilitates seamless interaction between job seekers and employers, allowing for job postings, applications, and efficient recruitment processes.
 
-## Objectives
+## 🌟 Features
 
-- Understand and explore the dataset
-- Clean and preprocess data for analysis
-- Visualize key statistics and trends
-- Derive insights that could inform business or data-driven decisions
+- **Responsive Design**: Ensures optimal viewing experience across various devices.
+- **Job Listings**: Displays available job opportunities with detailed descriptions.
+- **Job Categories**: Organizes jobs into categories for easier navigation.
+- **About & Contact Pages**: Provides information about the platform and means to get in touch.
+- **Testimonials**: Showcases feedback from users to build trust.
+- **404 Page**: Custom error page for improved user experience. ([Job Portal Web Application - GitHub](https://github.com/AJAY2-R/Job-portal?utm_source=chatgpt.com))
 
-## Features
+## 🛠️ Technologies Used
 
-- Data cleaning and handling of missing values
-- Summary statistics and correlation analysis
-- Graphical representation of key variables and distributions
-- Step-by-step explanation in Jupyter Notebook format
+- **HTML5**: Structure of the web pages.
+- **CSS3**: Styling and layout.
+- **Bootstrap**: Responsive design framework.
+- **JavaScript**: Interactive functionalities.
 
-## Technologies Used
+## 📁 Project Structure
 
-- Python
-- Pandas and NumPy for data processing
-- Matplotlib and Seaborn for data visualization
-- Jupyter Notebook for execution and documentation
 
-## How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sneha280904/CODSOFT-task2.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd CODSOFT-task2
-   ```
-
-3. Open the Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
-
-4. Run the notebook to view the complete analysis and visual insights.
-
-## Outcome
-
-- Enhanced understanding of data through visualization
-- Clear summary of data trends and relationships
-- Cleaned dataset ready for further machine learning or business use
-
-## License
-
-This project is licensed under the MIT License.
+```plaintext
+├── index.html               # Home page
+├── about.html               # About us page
+├── contact.html             # Contact page
+├── category.html            # Job categories
+├── job-list.html            # List of job postings
+├── job-detail.html          # Detailed view of a job
+├── 404.html                 # Custom 404 error page
+├── css/
+│   └── style.css            # Custom styles
+├── js/
+│   └── main.js              # JavaScript functionalities
+├── images/
+│   ├── carousel-1.jpg
+│   ├── carousel-2.jpg
+│   ├── com-logo-1.jpg
+│   ├── ...                  # Other images
+└── README.md                # Project documentation
 ```
+
+
+
+## 🚀 Getting Started
+
+To view the website locally:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/sneha280904/Job-Portal-Website.git
+   ```
+
+
+2. **Navigate to the project directory**:
+
+   ```bash
+   cd Job-Portal-Website
+   ```
+
+
+3. **Open `index.html` in your preferred web browser**.
+
+## 📸 Screenshots
+
+*Include screenshots of the homepage, job listings, and other significant sections here to provide a visual overview.*
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
